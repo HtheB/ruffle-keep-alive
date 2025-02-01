@@ -12,7 +12,7 @@
     'use strict';
 
     function isRufflePage() {
-        return document.querySelector('ruffle-player') !== null;
+        return document.querySelector('ruffle-embed, ruffle-object, ruffle-player') !== null;
     }
 
     function keepRuffleActive() {
