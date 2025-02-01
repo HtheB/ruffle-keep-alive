@@ -26,7 +26,15 @@ This script prevents **Ruffle** from pausing Flash content when the browser tab 
 ✅ Yes! Just disable the script in the **Tampermonkey Dashboard**.  
 
 ❓ **Will this break other websites?**  
-🚫 No, it only affects pages running **Ruffle**.  
+🚫 No, it only affects pages running **Ruffle**.   
+
+---
+
+## **⚠️ Known Issues & Limitations**  
+🔸 **Audio may go out of sync with video/animation**  
+🔸 **Animations that require frame-perfect sync might stutter**  
+- Some Flash animations rely on **precise timing between audio and video**, and Ruffle may **reset the sync** when switching tabs.  
+- If this happens, you can temporarily disable the script in **Tampermonkey Dashboard** and refresh the page.  
 
 ---
 
